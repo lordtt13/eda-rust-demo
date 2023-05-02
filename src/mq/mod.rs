@@ -1,5 +1,5 @@
 pub mod transporter;
-pub mod message;
+pub mod topic;
 
 pub use transporter::*;
-pub use message::*;
+pub use topic::*;
