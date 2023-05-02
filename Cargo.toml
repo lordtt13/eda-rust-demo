@@ -14,5 +14,8 @@ name = "auth"
 
 [dependencies]
 amiquip = { version = "0.4", default-features = false }
-serde = "1.0.115"
 cuid = "1.3.1"
+protobuf = "3.2.0"
+
+[build-dependencies]
+protobuf-codegen = "3.2.0"
